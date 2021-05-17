@@ -1,3 +1,4 @@
+```uml
 @startuml
 mainframe sample
 
@@ -9,3 +10,4 @@ mainframe sample
 お届け先入力 -> お届け先入力内容確認
 お届け先入力内容確認 -> 購入完了
 @enduml
+```
