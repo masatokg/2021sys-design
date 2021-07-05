@@ -9,10 +9,10 @@ https://github.com/masatokg/2021sys-design/blob/main/ER_all.md
 ### 購入テーブル d_purchase
 |和名|属性名|型|PK|NN|FK|
 |:---|:---|:---|:---|:---:|:----:|
-|order_id|bigint(20)|〇|〇||
-|customer_code|varchar(50)||〇||
-|purchase_date|date||〇||
-|total_price|int(11)||〇||
+|オーダーID|order_id|bigint(20)|〇|〇||
+|顧客コード|customer_code|varchar(50)||〇||
+|購入日|purchase_date|date||〇||
+|総額|total_price|int(11)||〇||
 
 ### 購入詳細テーブル d_purchase_detail
 |属性名|型|PK|NN|FK|
