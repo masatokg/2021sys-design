@@ -6,7 +6,7 @@ https://github.com/masatokg/2021sys-design/blob/main/ER_all.md
 
 
 
-### d_purchase
+### 購入テーブル d_purchase
 |属性名|型|PK|NN|FK|
 |:---|:---|:---|:---:|:----:|
 |order_id|bigint(20)|〇|〇||
@@ -14,7 +14,7 @@ https://github.com/masatokg/2021sys-design/blob/main/ER_all.md
 |purchase_date|date||〇||
 |total_price|int(11)||〇||
 
-### d_purchase_detail
+### 購入詳細テーブル d_purchase_detail
 |属性名|型|PK|NN|FK|
 |:---|:---|:---|:---:|:----:|
 |detail_id|bigint(20)|〇|〇||
@@ -24,7 +24,7 @@ https://github.com/masatokg/2021sys-design/blob/main/ER_all.md
 |num|int(11)||〇||
 
 
-### m_customers
+### 顧客マスタ m_customers
 |属性名|型|PK|NN|FK|
 |:---|:---|:---|:---:|:----:|
 |customer_code|varchar(50)|〇|〇||
@@ -36,7 +36,7 @@ https://github.com/masatokg/2021sys-design/blob/main/ER_all.md
 |del_flag|int(11)||||
 |reg_date|date||〇||
 
-### m_category
+### カテゴリマスタ m_category
 |属性名|型|PK|NN|FK|
 |:---|:---|:---|:---:|:----:|
 |category_id|int(11)|〇|〇||
@@ -44,7 +44,7 @@ https://github.com/masatokg/2021sys-design/blob/main/ER_all.md
 |reg_date|date||〇||
 
 
-### m_items
+### 商品マスタ m_items
 |属性名|型|PK|NN|FK|
 |:---|:---|:---|:---:|:----:|
 |item_code|int(11)|〇|〇||
