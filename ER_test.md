@@ -6,5 +6,3 @@ Entity05 ||--o{ Entity06
 Entity07 |o--|| Entity08
 @enduml
 ```
-
-
