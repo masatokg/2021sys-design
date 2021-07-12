@@ -1,6 +1,6 @@
 ```startuml
 @startuml
-Entity01 } | .. || Entity02
+Entity01 }| .. || Entity02
 @enduml
 ```
 
